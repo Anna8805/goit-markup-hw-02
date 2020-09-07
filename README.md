@@ -1,2 +1,2 @@
-# home-work01
+# home-work
 HTML basics
