@@ -12,6 +12,7 @@
     --logo-text-header: #000
 }
 
+/* =============== COMPONENTS =============== */
 body {
     font-family: var(--main-font);
     font-style: normal;
@@ -29,6 +30,16 @@ body {
     font-style: normal;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: var(--the-text-color-of-subtitle); 
+}
+/* =============== END COMPONENTS =============== */
+
+/* =============== BODY =============== */
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -55,7 +66,9 @@ body {
 .header-contacts-link:focus {
     color: var(--accent-color);
 }
+/* =============== END BODY =============== */
 
+/* =============== HERO =============== */
 .hero {
     font-size: 44px;
     line-height: 1.364;
@@ -80,7 +93,9 @@ body {
     color: #FFFFFF;
     background: var(--accent-color); 
 }
+/* =============== END BODY =============== */
 
+/* =============== FEATURES =============== */
 .features-subtitle {
     font-weight: 700;
     font-size: 14px;
@@ -97,15 +112,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
+/* =============== END FEATURES =============== */
 
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
-    letter-spacing: 0.03em;
-    color: var(--the-text-color-of-subtitle); 
-}
-
+/* =============== TEAM =============== */
 .team {
     background: var(--background-section);
 }
@@ -125,7 +134,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
+/* =============== END TEAM =============== */
 
+/* =============== FOOTER =============== */
 .footer-list {
     background: var(--background-footer);
 }
@@ -148,7 +159,9 @@ body {
 .footer-item-address{
     color: var(--footer-color-item-address);
 }
+/* =============== END FOOTER =============== */
 
+/* =============== GALLERY-PORTFOLIO =============== */
 .gallery-portfolio-list {
     font-weight: 500;
     font-size: 16px;
@@ -172,3 +185,4 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
+/* =============== GALLERY-PORTFOLIO =============== */
