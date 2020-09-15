@@ -39,7 +39,7 @@ body {
 }
 /* =============== END COMPONENTS =============== */
 
-/* =============== BODY =============== */
+/* =============== HEADER =============== */
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -53,11 +53,13 @@ body {
     color: var(--logo-text-header);
 }
 
-.navigation-list-link {
+.navigation-list-link,
+.header-contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
+    color: var(--the-text-color-of-subtitle);
 }
 
 .navigation-list-link:hover,
@@ -66,16 +68,17 @@ body {
 .header-contacts-link:focus {
     color: var(--accent-color);
 }
-/* =============== END BODY =============== */
+/* =============== END HEADER =============== */
 
 /* =============== HERO =============== */
-.hero {
+.hero-subtitle {
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #fff;
     background: var(--background-footer);
 }
 
@@ -85,12 +88,10 @@ body {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
-
     display: flex;
     align-items: center;
     text-align: center;
-
-    color: #FFFFFF;
+    color: #fff;
     background: var(--accent-color); 
 }
 /* =============== END BODY =============== */
@@ -161,8 +162,23 @@ body {
 }
 /* =============== END FOOTER =============== */
 
-/* =============== GALLERY-PORTFOLIO =============== */
-.gallery-portfolio-list {
+/* =============== PORTFOLIO =============== */
+.portfolio-model-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--the-text-color-of-subtitle);
+}
+
+.portfolio-model-btn:hover,
+.portfolio-model-btn:focus {
+    color: #FFF;
+    background: var(--accent-color);
+}
+
+.portfolio-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
@@ -170,7 +186,7 @@ body {
     color: var(--the-text-color-of-subtitle);
 }
 
-.gallery-portfolio-subtitle {
+.gallery-portfolio-link {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -185,4 +201,4 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
-/* =============== GALLERY-PORTFOLIO =============== */
+/* =============== END PORTFOLIO =============== */
