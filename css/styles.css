@@ -53,19 +53,33 @@ body {
     color: var(--logo-text-header);
 }
 
-.navigation-list-link,
-.header-contacts-link {
+.navigation-list-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--the-text-color-of-subtitle);
 }
+.header-contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .header-contacts-link:hover,
 .header-contacts-link:focus {
+    color: var(--accent-color);
+}
+
+.navigation-list-link-color {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
     color: var(--accent-color);
 }
 /* =============== END HEADER =============== */
